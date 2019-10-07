@@ -1,1 +1,1 @@
-# EtherDelta
+# McAfeeDex
