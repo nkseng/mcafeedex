@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59284329-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-59284329-2');
+</script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="fa.png" rel="icon" />
+  <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+  <title>McAfeeDex</title>
+<link href="main.6cfdd60c6d0446e78031.css" rel="stylesheet"></head>
+
+<body style="height: 100%;" class="dark">
+  <div id="bodyContainer" style="height: 100%">
+  <div class="balanceNav">
+      <a class="navbar-brand" href="/" style="height: 4rem;width:20rem;">
+        </a>
+    </div>
+  <div class="balanceContainer">
+    <div class="balanceHeader">
+      <div style="display:flex;">
+      <span class="balanceHeaderText">TOTAL USD VALUE: <span style="font-weight: 600;margin-right: 0.2rem;" id="totalUSDSpan">$0.00</span></span>
+      <span class="balanceHeaderDivide">|</span>
+      <span class="balanceHeaderText">TOTAL ETH VALUE: <span style="font-weight: 600;margin-right: 0.2rem;" id="totalEthSpan">0</span></span>
+      </div>
+      <div style="margin-left:auto;display: flex;">
+      <div class="balanceHeaderCheckbox">
+        <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+        <label for="checkbox-1" class="checkbox-custom-label">Hide zero balances</label>
+      </div>
+      <div class="balanceHeaderSearch">
+        <input type="text" id="balanceSearchBox" class="balanceHeaderSearchBox" placeholder="FILTER BY ASSET">
+    </div>
+    </div>
+    </div>
+                    <img id="Loading" src="ripple1.svg" alt="Spinner" class="loadingRipple"></img>
+
+    <div class="balanceTable" id ="balanceTableDIV" style="margin-left: 2rem;padding-bottom:40rem">
+
+  <table class="balanceTableClass" style="width:92%; margin-left: 10%;    padding: 1rem;
+    margin-left: 2rem;display:none;" id="balanceTableID">
+    <tbody id="tableBalances">
+  <tr class="balanceTRHeader">
+    <th class="balanceTH">ASSET</th>
+    <th class="balanceTH">CONTRACT</th>
+    <th class="balanceTH">WALLET BALANCE</th>
+    <th class="balanceTH">MCAFEEDEX BALANCE</th>
+    <th class="balanceTH">IN ORDERS</th>
+    <th class="balanceTH">LAST PRICE ON MCAFEEDEX</th>
+    <th class="balanceTH">ACTIONS</th>
+  </tr>
+
+</tbody>
+</table>
+    </div>
+  </div>
+
+  <script src="/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <script src="/js/jquery.translate.js" type="text/javascript"></script>
+  <script src="/js/alertify.min.js" type="text/javascript"></script>
+  <script src="/js/ejs_production.js" type="text/javascript"></script>
+  <script src="/js/chrome-u2f-api.js" type="text/javascript"></script>
+  <script src="/js/ledger.min.js" type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.0.0/socket.io.js"></script>
+<script type="text/javascript" src="balance.js"></script>
+<script type="text/javascript" src="main.6cfdd60c6d0446e78031.js"></script></div></body>
+
+</html>
