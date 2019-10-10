@@ -62,7 +62,7 @@
   ],
   "tokens": [
     {"addr":"0x0000000000000000000000000000000000000000","name":"ETH","decimals":18},
-    {"addr":"0xdf329603bd378021698f9833cd5205b52f9e370e","name":"ESH","decimals":18},
+    {"addr":"0xd6a55c63865affd67e2fb9f284f87b7a9e5ff3bd","name":"ESH","decimals":18},
     {"addr":"0x77678cfd0f2b55152adc6599db9f988ab28d72f2","name":"SDEX","decimals":18},
     {"addr":"0xe7E4279b80D319EDe2889855135A22021baf0907","name":"ZEUS","decimals":18},
     {"addr":"0x42382f39e7c9f1add5fa5f0c6e24aa62f50be3b3","name":"ZOM","decimals":18},
