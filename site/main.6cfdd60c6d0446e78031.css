@@ -13901,6 +13901,9 @@ table td:last-child,table th:last-child {
 #orderBookScroll {
     width: 100%;
 }
+.orderbooktd {
+  cursor : pointer !important;
+}
 
 .loader {
     flex: 1;
