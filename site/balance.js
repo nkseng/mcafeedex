@@ -345,6 +345,7 @@ function GetEthPrice(tokens){
   });
   request.fail(function() {
     basePrice = 0;
+    FillTable(tokens);
   });
 }
 
