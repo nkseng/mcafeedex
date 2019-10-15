@@ -338,9 +338,9 @@ function GetEthPrice(tokens){
   }
 
   $.ajax(settings).done(function (response) {
-    basePrice = JSON.parse(response).ethPrice
+    basePrice = JSON.parse(response).ethPrice;
     console.log(response);
-    FillTable(tokens,JSON.parse(response).ethPrice);
+    FillTable(tokens);
   });
 }
 
