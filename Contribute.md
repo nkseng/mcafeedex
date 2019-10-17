@@ -1,6 +1,6 @@
-#Contribution Guide
+# Contribution Guide
 
-##Install git
+## Install git
 
 Download and install git for your operating system: https://git-scm.com/downloads
 
@@ -17,7 +17,7 @@ Go to the main repo: https://github.com/Mshuu/mcafeedex
 
 Click the "Fork" button at the top right of the page.
 
-##Clone the fork
+## Clone the fork
 On your computer, choose a directory to store the repo.
 
 Clone your fork, replacing [your-github-username] with your GitHub username:
