@@ -12944,6 +12944,7 @@ margin-bottom: 0.7rem;
 
 }
 .circleThing{
+  background: #c4c4c4;
   height: 1.4rem;
   width: 1.4rem;
   border-radius: 50%;
@@ -12979,6 +12980,9 @@ color: var(--fith-color);
   flex-direction: row;
   position: relative;
   align-items: center;
+}
+.orderbooktd {
+  cursor : pointer !important;
 }
 .lastPriceDiv{
   flex: 2;
@@ -13044,7 +13048,6 @@ font-size: 14px;
 line-height: 19px;
 margin-right: 0.4rem;
 margin-bottom: 0;
-
 color: var(--thirteenth-color);
 }
 .contractInfoName{
@@ -13058,7 +13061,9 @@ margin-top: 0.2rem;
 /* identical to box height */
 
 
+
 color: var(--seventh-color);
+
 }
 .lastPriceToken2{
   font-family: Open Sans;
@@ -13082,7 +13087,9 @@ margin-bottom: 0;
 /* identical to box height */
 
 
+
 color: var(--seventh-color);
+
 
 }
 .lastPriceText{
@@ -13096,7 +13103,9 @@ margin-top: 0.2rem;
 /* identical to box height */
 
 
+
 color: var(--seventh-color);
+
 
 }
 .24hrVolumeDiv{
@@ -13132,7 +13141,7 @@ color: var(--seventh-color);
 }
 
 .navbar-brand {
-    background: url(mcflogo.png);
+    background: url(logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 2rem;
@@ -13204,7 +13213,9 @@ color: var(--seventh-color);
   color: #898989;
 }
 .selectMarketPair{
+
   color: var(--seventh-color) !important;
+
   font-size: 14px;
 }
 .selectTokenHeaders{
@@ -13243,7 +13254,9 @@ color: var(--seventh-color);
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
+
   color: var(--seventh-color);
+
   float: right;
   /* margin-right: 0; */
   /* right: 0%; */
@@ -13265,7 +13278,9 @@ color: var(--seventh-color);
       font-size: 14px;
       line-height: 19px;
       text-align: right;
+
       color: var(--seventh-color);
+
       padding: 0rem;
       margin-right: 10px;
       margin-top: 1px;
@@ -13301,7 +13316,9 @@ font-weight: normal;
 font-size: 24px;
 line-height: 33px;
 text-align: center;
+
 color: var(--seventh-color);
+
 flex: 2;
 margin-top: 10px;
 }
@@ -13314,7 +13331,9 @@ margin-top: 10px;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
+
   color: var(--seventh-color);
+
 }
 .balanceMiddleTokenSymbol{
   display: flex;
@@ -13323,7 +13342,9 @@ margin-top: 10px;
       font-weight: normal;
       font-size: 14px;
       line-height: 19px;
+
       color: var(--seventh-color);
+
       flex: 3;
 }
 .balanceMiddleTokenBalance{
@@ -13334,7 +13355,9 @@ margin-top: 10px;
       font-size: 14px;
       line-height: 19px;
       text-align: right;
+
       color: var(--seventh-color);
+
 }
 .balanceMiddleTokenSymbol2{
   display: flex;
@@ -13344,6 +13367,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 19px;
+color: #E5E5E5;
 flex: 3;
 font-family: Open Sans;
 font-style: normal;
@@ -13381,7 +13405,9 @@ color: #898989;
       font-size: 14px;
       line-height: 19px;
       text-align: center;
+
       color: var(--fourteenth-color);
+
       flex: 1;
       height: 50px;
       max-width: 140px;
@@ -13397,7 +13423,9 @@ color: #898989;
   font-size: 14px;
   line-height: 19px;
   text-align: center;
+
   color: var(--fourteenth-color);
+
   flex: 1;
   margin-left: 20px;
   height: 50px;
@@ -13466,7 +13494,9 @@ color: #898989;
   height: 100%;
   /* left: 80px; */
   /* top: 120px; */
+
   background: var(--third-color);
+
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -13476,6 +13506,7 @@ color: #898989;
   height: 6rem;
   left: 0px;
   top: 0px;
+  background: #2E3D45;
   display: flex;
   margin-bottom: 3rem;
 }
@@ -13510,6 +13541,7 @@ color: #898989;
     padding-left: 0;
 }
 .balanceTR:nth-child(even){
+  background: rgba(46, 61, 69, 0.5);
 }
 .balanceTR:nth-child(n){
 border: 1px solid #2E3D45;
@@ -13524,7 +13556,6 @@ border-left: none;
       line-height: 1.5rem;
       vertical-align: middle;
       text-align: center;
-      color: #000000;
 }
 .balanceTable{
   height: 100%;
@@ -13662,7 +13693,9 @@ border-bottom: 1px solid #898989;
   height: 1rem;
   /* padding: 2px; */
   margin-right: 0.5rem;
+
   background: var(--third-color);
+
   border-radius: 3px;
 }
 .checkbox-custom:checked + .checkbox-custom-label:before {
@@ -13696,14 +13729,18 @@ border-bottom: 1px solid #898989;
     padding: 1rem;
 }
 .balanceHeaderSearchBox{
+
   background: var(--third-color);
+
 border-radius: 3px;
 border: none;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 0.7rem;
+
 color: var(--fifteenth-color) !important;
+
 /* padding: 0.3rem; */
 padding-left: 0.5rem;
 padding-right: 0.5rem;
@@ -13837,9 +13874,11 @@ width: 17rem;
 
 .component-tabs .nav-link.active {
     /* margin-bottom: -2px; */
+
     background-color: var(--third-color) !important;
     border-bottom: none !important;
     color: var(--fith-color) !important;
+
 }
 .component-tabs .nav-link.active2 {
     /* margin-bottom: -2px; */
@@ -13972,9 +14011,6 @@ table td:last-child,table th:last-child {
 #orderBookScroll {
     width: 100%;
 }
-.orderbooktd {
-  cursor : pointer !important;
-}
 
 .loader {
     flex: 1;
@@ -14008,7 +14044,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 /* line-height: 16px; */
+
 color: var(--fith-color);
+
 }
 
 .table-order-book tr td,.table-order-book tr th {
@@ -14049,7 +14087,9 @@ color: var(--fith-color);
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
+
     color: var(--fith-color);
+
     padding-top: 0.5rem;
 }
 .table-my-trades:after {
@@ -14131,6 +14171,7 @@ color: var(--fith-color);
 
 .table-trades tr:nth-of-type(even){
   background: var(--eleventh-color);
+
 }
 .table-trade tr {
   height: 30px;
@@ -14226,13 +14267,16 @@ align-items: center;
 }
 #overlay {
   position: fixed;
+  /* display: none; */
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+
   background-color: var(--sixteenth-color);
+
   z-index: 2;
   cursor: pointer;
   pointer-events: none;
@@ -14240,7 +14284,9 @@ align-items: center;
 .mobileMenu{
   display: none;
   display: none;
+
 background: var(--third-color);
+
 color: #898989;
 min-width: 25rem;
 left: 0;
@@ -14264,7 +14310,9 @@ margin-top: 10px;
 .burgerMenu {
   width: 25px;
   height: 3px;
+
   background-color: var(--burgerColor);
+
   margin: 6px 0;
 }
 .candleTimeDropdownSpan{
@@ -14305,7 +14353,9 @@ margin-top: 10px;
 }
 .candleTimeDropdown{
   display: none;
+
       background: var(--third-color);
+
       border: 1px solid #5C6367;
       box-sizing: border-box;
       border-radius: 4px;
@@ -14441,12 +14491,13 @@ width: 100%;
 #searchToken {
   margin: 0 .5rem;
   width: auto;
+
   background: var(--third-color);
   border: 1px solid var(--eigth-color);
+
   width: 94.5%;
   margin-left: 0.7rem;
   margin-right: 0.7rem;
-  color: #000000 !important;
 }
 
 .ajs-button {
@@ -14474,7 +14525,9 @@ width: 100%;
 }
 
 body.dark {
+
     background-color: var(--eleventh-color);
+
     color: #898989;
 }
 
@@ -14483,7 +14536,9 @@ body.dark .ReactModal__Overlay {
 }
 
 body.dark .component {
+
     background-color: var(--third-color);
+
 }
 
 body.dark .component .form-group label {
@@ -14491,9 +14546,11 @@ body.dark .component .form-group label {
 }
 
 body.dark .component .form-control {
+
     background-color: var(--bodyComponent);
     border: 1px solid var(--bodyComponentBorder);
     color: var(--bodyComponentText);
+
 }
 
 body.dark .component .input-group>.form-control {
@@ -14501,9 +14558,11 @@ body.dark .component .input-group>.form-control {
 }
 
 body.dark .component .input-group-text {
+
     background-color: var(--bodyComponent);
     border-color: var(--bodyComponentBorder);
     color: var(--bodyComponentText);
+
     border-left: none;
     font-size: .8rem;
 }
@@ -14525,7 +14584,9 @@ font-family: Open Sans;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
+
 color: var(--fith-color);
+
 padding-top: 0.5rem;
 }
 
@@ -14574,7 +14635,9 @@ body.dark .table-order-book th {
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
+
     color: var(--sixth-color);
+
 }
 
 body.dark .table-order-book tr.sell-row {
@@ -14582,7 +14645,9 @@ body.dark .table-order-book tr.sell-row {
 }
 
 body.dark .table-order-book tr.sell-row:nth-child(even) {
+
   background: var(--nthChild);
+
   height: 40px !important;
   border-bottom: none !important;
 }
@@ -14597,7 +14662,9 @@ body.dark .table-order-book tr.buy-row:nth-child(even) {
   border-bottom: none !important;
 }
 body.dark .table-order-book tr.buy-row:nth-child(odd) {
+
   background: var(--nthChild);
+
   height: 40px !important;
   border-bottom: none !important;
 }
@@ -14638,7 +14705,9 @@ font-weight: normal;
 font-size: 12px;
 line-height: 16px;
 text-align: right;
+
 color: var(--fith-child);
+
 }
 
 body.dark .table-volume a {
