@@ -502,6 +502,15 @@ hr {
   .circleThing{
     display: none;
   }
+  .modal-content{
+    width: 95% !important;
+    margin-left: 2.5%;
+  }
+  .whitelistModalClass{
+    max-width: 100%;
+    width: 100%;
+    word-wrap: break-word;
+  }
   .tokenPairingP{
     position: relative !important;
     margin-left: 0px !important;
