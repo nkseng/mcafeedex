@@ -1,5 +1,5 @@
 {
-  "contractSwitchDex": "smart_contract/switchdex.sol",
+  "contractSwitchDex": "smart_contract/contract.sol",
   "contractToken": "smart_contract/token.sol",
   "contractReserveToken": "smart_contract/reservetoken.sol",
   "contractSwitchDexAddrs": [
